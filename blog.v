@@ -14,6 +14,6 @@ fn main() {
 
 @['/index']
 pub fn (mut app App) index() vweb.Result {
-	message := 'Hello, world from Vweb!'
+	message := 'Hello, world from Vweb! (Test deploy)'
 	return $vweb.html()
 }
